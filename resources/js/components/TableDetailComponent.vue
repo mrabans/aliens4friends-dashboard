@@ -142,6 +142,7 @@
                               >
                               <v-chip
                                 small
+
                                 v-if="item.src_uri.indexOf('tar.gz') != -1"
                                 >tar.gz</v-chip
                               >
